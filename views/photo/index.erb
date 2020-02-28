@@ -1,0 +1,12 @@
+ Kitten!
+<br>
+<img src=<%=@source%>>
+<br>
+<FORM>
+<INPUT TYPE="button" onClick="history.go(0)" VALUE="One more kitten?">
+</FORM>
+
+<form action="/vote" method="post">
+  <input type="submit" name="cast" value="Cat">
+  <input type="submit" name="cast" value="Not">
+</form>
